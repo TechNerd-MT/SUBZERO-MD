@@ -1,23 +1,6 @@
-import 'dotenv/config';
-
-const settings = {
-/* ================= BOT IDENTITY ================= */
-
-botName: process.env.BOT_NAME || 'SUBZERO-MD',
-botOwner: process.env.BOT_OWNER || 'Darrell M',
-ownerNumber: process.env.OWNER_NUMBER || '263719647303',
-author: process.env.AUTHOR || 'Mr Frank OFC',
-packname: process.env.PACKNAME || 'SUBZERO-MD',
-description: process.env.DESCRIPTION || 'Multi-device WhatsApp bot',
-
-/* ================= SESSION ================= */
-
-sessionId: process.env.SESSION_ID || 'Ice~WmdYGf',
-pairingNumber: process.env.PAIRING_NUMBER || '',
-
-/* ================= CDN ================= */
-
-CDN: "https://mrfrankk-cdn.hf.space" // Dont change this part
+module.exports = {
+  SESSION_ID: "Ice~q3YOXj",
+  OWNER_NUMBER: "+26777790341", 
+  PREFIX: "!",
+  CDN: "https://mrfrankk-cdn.hf.space"
 };
-
-export default settings;
